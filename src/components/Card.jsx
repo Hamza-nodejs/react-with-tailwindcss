@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import maksim from "../assets/maksim.jpg";
 
-export default function Card() {
+export default function Card({ name, price, status }) {
     const [selectedSize, setSelectedSize] = useState("m");
 
     const handleSizeChange = (e) => {
@@ -16,13 +16,13 @@ export default function Card() {
                 <form className="flex-auto p-6">
                     <div className="flex flex-wrap items-baseline">
                         <h1 className="w-full flex-none mb-3 text-2xl leading-none text-slate-900">
-                            DogTooth Style Jacket
+                            {name}
                         </h1>
                         <div className="flex-auto text-lg font-medium text-slate-500">
-                            $350.00
+                            ${price}
                         </div>
                         <div className="text-xs leading-6 font-medium uppercase text-slate-500">
-                            In stock
+                            {status}
                         </div>
                     </div>
                     <div className="flex items-baseline mt-4 mb-6 pb-6 border-b border-slate-200">

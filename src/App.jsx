@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <Card />
+      <Card name="Nike" price="500" status="in-stock" />
     </>
   )
 }
