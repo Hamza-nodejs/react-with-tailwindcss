@@ -1,5 +1,5 @@
 import React from 'react';
-import maksim from "../assets/maksim.jpg";
+import maksim from "../../assets/maksim.jpg";
 
 export default function Home2() {
     return (
