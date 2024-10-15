@@ -3,7 +3,7 @@ import React from 'react'
 export default function SecondBanner() {
     return (
         <>
-            <div className='bg-black text-white'>
+            <div className='bg-black text-white mt-10'>
                 <div className="text-center font-bold p-16 text-3xl">
                     <h1>
                         Back a campaign, to launch yours
@@ -17,7 +17,7 @@ export default function SecondBanner() {
                     We Waive the hosting fee for your new campaign when you back one
                 </div>
 
-                <div className="icons flex justify-evenly ">
+                <div className="icons flex justify-evenly">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-20">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />

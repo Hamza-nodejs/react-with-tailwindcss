@@ -6,6 +6,7 @@ import mountainImage from "../assets/mountainImage.jpg";
 import Home3 from '../components/Home/Home3';
 import Campaign from '../components/Home/Campaign';
 import SecondBanner from '../components/Home/SecondBanner';
+import Video from '../components/Home/Video';
 
 export default function Home() {
     return (
@@ -24,6 +25,7 @@ export default function Home() {
                 <Home3 chainName="Flash" feeHosting="1000" btnText="JOIN" />
                 <Home3 chainName="Hypersonic" feeHosting="5000" btnText="JOIN" />
                 <SecondBanner />
+                <Video />
 
 
             </div>
