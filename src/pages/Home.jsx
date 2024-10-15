@@ -8,6 +8,7 @@ import Campaign from '../components/Home/Campaign';
 import SecondBanner from '../components/Home/SecondBanner';
 import Video from '../components/Home/Video';
 import Download from '../components/Home/Download';
+import FAQ from '../components/Home/FAQ';
 
 export default function Home() {
     return (
@@ -28,6 +29,7 @@ export default function Home() {
                 <SecondBanner />
                 <Video />
                 <Download />
+                <FAQ />
 
 
             </div>
