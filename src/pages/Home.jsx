@@ -11,6 +11,7 @@ import Download from '../components/Home/Download';
 import FAQ from '../components/Home/FAQ';
 import Fund from '../components/Home/Fund';
 import MiddleMenu from '../components/Home/MiddleMenu';
+import Footer from '../components/Home/Footer';
 
 export default function Home() {
     return (
@@ -34,6 +35,7 @@ export default function Home() {
                 <FAQ />
                 <Fund />
                 <MiddleMenu />
+                <Footer />
 
 
             </div>
