@@ -1,5 +1,7 @@
 import React from 'react'
 import getAppRight from "../../assets/getAppRight.svg"
+import appstore from "../../assets/appstore.svg"
+import googleplay from "../../assets/googleplay.svg"
 
 export default function Download() {
     return (
@@ -14,6 +16,19 @@ export default function Download() {
                         The mobiles app offers a convient way to market your campaign, keep an eye on your wallet
                         , chat with your brackers, scan QR codes, and more. Don"t miss out, download the app today!
                     </p>
+
+                    <div className='flex flex-row'>
+                        <div className='m-4'>
+                            <p>iPhone:</p>
+                            <img className='w-[180px]' src={appstore} alt="" />
+                        </div>
+
+                        <div className='m-4'>
+                            <p>Andriod:</p>
+                            <img className=" w-[192px]" src={googleplay} alt="" />
+                        </div>
+
+                    </div>
 
                 </div>
 
