@@ -14,8 +14,8 @@ export default function Fund() {
                     </p>
                 </div>
 
-                <div className="btn flex justify-center">
-                    <button className='bg-white text-black p-3  rounded-full mx-5'>Get Started</button>
+                <div className="btn flex justify-center mt-4">
+                    <button className='bg-white text-black p-3  rounded-full mx-2'>Get Started</button>
                     <button className='bg-black text-white p-3 rounded-full border border-white'>Learn More</button>
                 </div>
             </div>

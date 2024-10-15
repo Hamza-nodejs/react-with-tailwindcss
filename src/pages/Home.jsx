@@ -10,6 +10,7 @@ import Video from '../components/Home/Video';
 import Download from '../components/Home/Download';
 import FAQ from '../components/Home/FAQ';
 import Fund from '../components/Home/Fund';
+import MiddleMenu from '../components/Home/MiddleMenu';
 
 export default function Home() {
     return (
@@ -32,6 +33,7 @@ export default function Home() {
                 <Download />
                 <FAQ />
                 <Fund />
+                <MiddleMenu />
 
 
             </div>
